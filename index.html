@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Best Laptop Shop in Tirupati | Pawanism Laptops</title>
+<meta name="description" content="Buy best laptops in Tirupati at low price. HP, Dell, Lenovo available.">
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f2f2f2;
+}
+
+header{
+background:#111;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+background:url("https://images.unsplash.com/photo-1517336714731-489689fd1ca8");
+background-size:cover;
+color:white;
+padding:100px;
+text-align:center;
+}
+
+.section{
+padding:40px;
+text-align:center;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.price{
+color:green;
+font-size:18px;
+font-weight:bold;
+}
+
+form{
+max-width:400px;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+input,select{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+background:green;
+color:white;
+padding:10px;
+border:none;
+cursor:pointer;
+width:100%;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50%;
+font-size:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Pawanism Laptops sales</h1>
+<p>AP, Tirupati, Korlagunta</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#products">Laptops</a>
+<a href="#services">Services</a>
+<a href="#booking">Booking</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+<h2>Best Laptop Deals in Tirupati</h2>
+<p>Dell | HP | Lenovo</p>
+</div>
+
+<div class="section" id="products">
+<h2>Available Laptops</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853">
+<h3>Dell Laptop</h3>
+<p class="price">Price: ₹10,000 – ₹60,000</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f">
+<h3>HP Laptop</h3>
+<p class="price">Price: ₹10,000 – ₹70,000</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7">
+<h3>Lenovo Laptop</h3>
+<p class="price">Price: ₹10,000 – ₹80,000</p>
+</div>
+
+</div>
+</div>
+
+<div class="section" id="services">
+
+<h2>Our Services</h2>
+
+<p>Laptop Sales</p>
+<p>Laptop Repair</p>
+<p>Software Installation</p>
+<p>Laptop Accessories</p>
+
+</div>
+
+<div class="section" id="booking">
+
+<h2>Online Laptop Booking</h2>
+
+<form onsubmit="sendWhatsApp(); return false;">
+
+<input type="text" id="name" placeholder="Your Name" required>
+
+<input type="tel" id="phone" placeholder="Phone Number" required>
+
+<select id="brand">
+<option>Dell</option>
+<option>HP</option>
+<option>Lenovo</option>
+</select>
+
+<button type="submit">Book Now</button>
+
+</form>
+
+</div>
+
+<div class="section" id="contact">
+
+<h2>Contact Us</h2>
+
+<p>Phone / WhatsApp: 9533303369</p>
+
+<h3>Location</h3>
+
+<iframe
+width="100%"
+height="300"
+src="https://maps.google.com/maps?q=Tirupati&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</div>
+
+<footer>
+
+<p>© 2026 Pawanism Laptops Shop</p>
+<a href="https://wa.me/91YOURNUMBER?text=Hi%20I%20want%20to%20buy%20a%20laptop" target="_blank">
+<button style="background:green;color:white;padding:10px 20px;border:none;">
+Book on WhatsApp
+</button>
+</a>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919533303369">W</a>
+
+<script>
+
+function sendWhatsApp(){
+
+var name=document.getElementById("name").value;
+
+var phone=document.getElementById("phone").value;
+
+var brand=document.getElementById("brand").value;
+
+var message="Laptop Booking:%0AName:"+name+"%0APhone:"+phone+"%0ABrand:"+brand;
+
+window.open("https://wa.me/919533303369?text="+message);
+
+}
+
+</script>
+
+</body>
+</html>
